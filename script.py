@@ -52,7 +52,6 @@ def run(filename):
     zbuffer = new_zbuffer()
     polygons = []
     step_3d = 30
-
     edges = []
 
     p = mdl.parseFile(filename)
